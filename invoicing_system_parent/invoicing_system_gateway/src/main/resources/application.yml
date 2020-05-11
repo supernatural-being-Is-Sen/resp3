@@ -1,0 +1,24 @@
+server:
+  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
+    register-with-eureka: true
+    fetch-registry: true
+spring:
+  application:
+    name: gateway-web
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    gateway:
+      routes:
+        - id: invocing-system
+          uri: lb://invocing-system-consumer
+          predicates:
+            - Path=/users/**,/product/**,/sale/**
+management:
+  endpoint:
+    gateway:
+      enabled: true

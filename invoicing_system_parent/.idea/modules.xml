@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_common/common_base/common_base.iml" filepath="$PROJECT_DIR$/invoicing_system_common/common_base/common_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_common/common_client/common_client.iml" filepath="$PROJECT_DIR$/invoicing_system_common/common_client/common_client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_common/common_dao/common_dao.iml" filepath="$PROJECT_DIR$/invoicing_system_common/common_dao/common_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_common/common_module/common_module.iml" filepath="$PROJECT_DIR$/invoicing_system_common/common_module/common_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_common/common_utils/common_utils.iml" filepath="$PROJECT_DIR$/invoicing_system_common/common_utils/common_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_common/invoicing_system_common.iml" filepath="$PROJECT_DIR$/invoicing_system_common/invoicing_system_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/invoicing_system_consumer/invoicing_system_consumer.iml" filepath="$PROJECT_DIR$/service/invoicing_system_consumer/invoicing_system_consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_gateway/invoicing_system_gateway.iml" filepath="$PROJECT_DIR$/invoicing_system_gateway/invoicing_system_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_parent.iml" filepath="$PROJECT_DIR$/invoicing_system_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/invoicing_system_provider/invoicing_system_provider.iml" filepath="$PROJECT_DIR$/service/invoicing_system_provider/invoicing_system_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/invoicing_system_server/invoicing_system_server.iml" filepath="$PROJECT_DIR$/invoicing_system_server/invoicing_system_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" />
+    </modules>
+  </component>
+</project>
