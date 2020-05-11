@@ -1,8 +1,0 @@
-server:
-  port: 8888
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8888/eureka/
-    register-with-eureka: false
-    fetch-registry: false
