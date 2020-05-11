@@ -1,0 +1,17 @@
+server:
+  port: 8801
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: invocing-system-consumer
+  redis:
+    host: 39.96.86.82
+    pool: 6379
+    database: 2
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+    register-with-eureka: true
